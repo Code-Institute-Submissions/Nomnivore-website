@@ -3,7 +3,6 @@
 [View the live project here.](https://nomnivore.nl)
 
 
-
 <h2 align="center"><img src="/assets/images/responsive-by-nature.png"></h2>
 
 ## User Experience (UX)
@@ -184,8 +183,8 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 
 ### Content
 
--   Kim wrote sections bla bla and bla
--   All other content was written by the developer
+-   Kim wrote sections bla bla and bla.
+-   All other content was written by the developer.
 -   All texts where reviewed by Melinda Schuurmans.
 
 ### Media

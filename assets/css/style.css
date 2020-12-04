@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800&display=swap');
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+/*--------------------------------------------------------header*/
+.nav-background{
+    height: 80px;
+}
+.bg-light{
+    background-image: linear-gradient(#B784A7, #78586E);
+}
+
+.navbar-brand{
+    font-size: 36px;
+    text-transform: uppercase;
+}
+
+.nav-link{
+    font-size: 18px;
+}
+
+/*--------------------------------------------------------Home*/
+
+.hero-image{
+    background-color: red;
+    background-image: url("assets/images/freelance-kok-kneed-deeg.png");
+    height: 250px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
