@@ -133,7 +133,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 ### Bugs
 
 -   Hero image was not displaying with the correct white overlay by default. Added a linear gradient overlay to fix this.
--   A white 
+-   footer disappeared after adding media queries.
 -   On Microsoft
 
 ## Deployment
@@ -178,6 +178,8 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 ### Code
 
 -   The .. code came from this [StackOverflow post](https://stackoverflow.com)
+
+-   Copied and adjusted navbar from the [bootstrap website](https://getbootstrap.com/docs/4.0/components/navbar/).
 
 -   [Bootstrap4](https://getbootstrap.com/docs/4.4/getting-started/introduction/): Bootstrap Library used to create the main structure of the pages of the website.
 
