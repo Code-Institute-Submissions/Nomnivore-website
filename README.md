@@ -1,9 +1,9 @@
 <h1 align="center">Nomnivore</h1>
 
-[View the live project here.](https://nomnivore.nl)
+[View the live project here.](https://jorispaarde.github.io/Nomnivore-website/)
 
 
-<h2 align="center"><img src="/assets/images/responsive-by-nature.png"></h2>
+<h2 align="center"><img src="/assets/images/mockup-image.png"></h2>
 
 ## User Experience (UX)
 
