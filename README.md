@@ -130,9 +130,9 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 -   A large amount of testing was done to 
 -   asked to review
 
-### Known Bugs
+### Bugs
 
--   On some 
+-   Hero image was not displaying with the correct white overlay by default. Added a linear gradient overlay to fix this.
 -   A white 
 -   On Microsoft
 
