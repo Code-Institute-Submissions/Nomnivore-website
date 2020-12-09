@@ -6,6 +6,10 @@ body{
     margin: 0;
 }
 
+body a:hover{
+    text-decoration:none;
+}
+
 /*--------------------------------------------------------header*/
 .nav-background{
     height: 80px;
@@ -83,8 +87,33 @@ body{
     text-shadow: 5px 5px 5px rgba(0,0,0,0.4);
 }
 
-/*--------------------------------------------------------Home*/
+/*--------------------------------------------------------main-content-Home*/
 
+.contact-button{
+    width: 150px;
+    height: 50px;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    padding: 10px 20px;
+    text-align: center;
+    cursor: pointer;
+    box-shadow: 1px 3px 10px 4px rgba(0, 0, 0, 0.25);
+    -o-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+.contact-button{
+    color: #000000;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.contact-button:hover{
+    background-color: rgba(183, 132, 167, 0.8);
+    color: #000000;
+}
 
 /*--------------------------------------------------------Footer*/
 .footer-background{
@@ -153,7 +182,7 @@ body{
     height: 200px;
     }
     .social-links{
-    padding: 15px 0px 10px 5px;
+    padding: 15px 5px 10px 5px;
     }
 }
 
@@ -167,6 +196,9 @@ body{
     }
     .hero-image{
     height: 250px;
+    }
+    .social-links{
+    padding: 15px 20px 10px 5px;
     }
 }
 
