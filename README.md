@@ -177,7 +177,7 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 
 ### Code
 
--   The .. code came from this [StackOverflow post](https://stackoverflow.com)
+-   The social icons code came from the cv assignment lesson in the [code institute LMS](https://learn.codeinstitute.net/courses/course-v1:codeinstitute+FE+2017_T3/courseware/616289d66b5641a3808cc43e53842695/b51f7b8b815c4bcd9979d2281b6d97a9/)
 
 -   Copied and adjusted navbar from the [bootstrap website](https://getbootstrap.com/docs/4.0/components/navbar/).
 

@@ -12,18 +12,38 @@ body{
 }
 
 .bg-light{
-    background-image: linear-gradient(#B784A7, #78586E);
+    background-image: linear-gradient(rgba(120, 88, 110, 0.9), rgba(183, 132, 167, 1), rgba(120, 88, 110, 0.8));
 }
 
-.navbar-brand{
+.navbar-brand h1{
+    margin-top: 5px;
+    color: #4b5582;
     margin-left: 30px;
     font-size: 36px;
     text-transform: uppercase;
+    -o-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
 }
 
-.nav-link{
+.nav-link p{
+    margin:auto;
     font-size: 18px;
-    font-weight: 300;
+    font-weight: 500;
+    -o-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+.navbar-brand h1:hover{
+    text-shadow: 5px 5px 4px rgba(129, 75, 112, 1);
+}
+
+.nav-link p:hover{
+    color: #4b5582;
+    text-shadow: 8px 8px 4px rgba(129, 75, 112, 1);
 }
 
 /*--------------------------------------------------------Hero area*/
@@ -45,6 +65,7 @@ body{
     border-radius: 50%;
     background-repeat: no-repeat;
     background-size: cover;
+    box-shadow: 10px 10px 14px 8px rgba(0, 0, 0, 0.4);
 }
 
 .hero-text{
@@ -73,6 +94,9 @@ body{
 }
 
 .copyright{
+    margin-top: 10px;
+    font-size: 12px;
+    color: #4b5582;
     padding: 20px 5px 10px 40px;
 }
 
@@ -86,23 +110,16 @@ body{
   background: #8f8f8f;
   text-align: center;
   line-height: 7px;
-  -o-transition: all 0.25s ease-in-out;
-  -moz-transition: all 0.25s ease-in-out;
-  -webkit-transition: all 0.25s ease-in-out;
-  transition: all 0.25s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
   margin-right: 10px;
 }
 
 .social-links li a i:hover {
-  background: #858ed6;
-}
-
-.social-links li a .youtube-logo:hover {
-  background: #d84e17;
-}
-
-.social-links li a .facebook-logo:hover {
-  background: #2441c0;
+  background: #4b5582;
+  box-shadow: 2px 2px 5px 3px rgba(129, 75, 112, 0.6);
 }
 
 /*--------------------------------------------------------Home*/
