@@ -195,6 +195,7 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 -   Images were edited by the developer excluding the ones metioned below.
 -   Hero image from [Life of pix](https://www.pexels.com/photo/baking-pastry-dough-bakery-9095/)
 -   Mockup was generated with [Techsini](https://techsini.com/multi-mockup/index.php)
+-   Colors slected with the help of [hexcolortool](https://www.hexcolortool.com/)
 
 ### Acknowledgements
 

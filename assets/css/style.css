@@ -17,7 +17,6 @@ body{
 
 .navbar-brand h1{
     margin-top: 5px;
-    color: #4b5582;
     margin-left: 30px;
     font-size: 36px;
     text-transform: uppercase;
@@ -46,6 +45,10 @@ body{
     text-shadow: 8px 8px 4px rgba(129, 75, 112, 1);
 }
 
+.current-link h1,
+.current-link p{
+    color: #4b5582;
+}
 /*--------------------------------------------------------Hero area*/
 
 .hero-image{
