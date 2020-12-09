@@ -133,8 +133,8 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 ### Bugs
 
 -   Hero image was not displaying with the correct white overlay by default. Added a linear gradient overlay to fix this.
--   footer disappeared after adding media queries.
--   On Microsoft
+-   Footer layout broke when adding href to the copyright text. Corrected by changing text to show copyright logo and adding col-xs-auto in staed of col-ms-auto.
+-   Header layout broke on smaller screens. added media query to .navbar-brand h1 to rduce font size.
 
 ## Deployment
 
