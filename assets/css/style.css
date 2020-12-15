@@ -153,7 +153,6 @@ body a:hover{
     margin-top: 20px;
 }
 
-
 .background-deco{
     position: absolute;
     top: -350px;
@@ -232,6 +231,12 @@ body a:hover{
     .hero-image{
     height: 200px;
     }
+    .background-deco{
+    width: 300px;
+    height: 300px;
+    top: -250px;
+    left: -50px;
+    }
     .social-links{
     padding: 15px 5px 10px 5px;
     }
@@ -250,6 +255,11 @@ body a:hover{
     }
     .hero-image{
     height: 250px;
+    }
+    .background-deco{
+    top: -300px;
+    width: 500px;
+    height: 600px; 
     }
     .social-links{
     padding: 15px 20px 10px 5px;
