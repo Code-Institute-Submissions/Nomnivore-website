@@ -21,6 +21,7 @@
         2. As a Returning Visitor, I want to find recipies for deliscious pastry.
 
     -   #### Frequent User Goals
+
         1. As a Frequent User, I want to check to see if there are any newly added recipies or events.
 
 
@@ -31,6 +32,7 @@
     -   #### Typography
         -   The Montserrat font is the main font used on this website with Sans Serif as a backup.
             Montserrat is a clean font used in a website Kim liked.
+            It's a modern font inspired by old posters and signs in the similarly named neighbourhood in Buenos Aires.
     -   #### Imagery
         -   Imagery is focused on showing the skills Kim posseses, and being appetizing to induce people to try and make her pastry recipies.
 
