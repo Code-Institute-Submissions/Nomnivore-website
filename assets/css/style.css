@@ -192,14 +192,26 @@ body a:hover{
 }
 
 /*--------------------------------------------------------main-content-recipes*/
-.recepe-text{
+.recipe-text{
     margin-top: 40px;
     text-align: center;
+    z-index: 100;
 }
 
-.recepe-text h1{
+.recipe-text h1{
     font-size: 25px;
     margin-bottom: 20px;
+    z-index: 100;
+}
+
+.profile-pic-small{
+    width: 0px;
+    height: 0px;
+    position: absolute;
+    left: 60vw;
+    top: 20px;
+    z-index: 2;
+    background-image:url("../images/freelance-kok-kim.png");
 }
 
 .recipe-section{
@@ -369,6 +381,15 @@ body a:hover{
     }
     .text-block-over-kim{
     margin-top: 40px;
+    }
+    .profile-pic-small{
+        width: 150px;
+        height: 150px;
+        border: 1px solid #000;
+        border-radius: 50%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        box-shadow: 10px 10px 14px 8px rgba(0, 0, 0, 0.4);
     }
 }
 
