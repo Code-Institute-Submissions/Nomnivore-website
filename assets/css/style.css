@@ -192,6 +192,7 @@ body a:hover{
 }
 
 /*--------------------------------------------------------main-content-recipes*/
+
 .recipe-text{
     margin-top: 40px;
     text-align: center;
@@ -244,6 +245,53 @@ body a:hover{
 
 .bereiding-text{
     margin-bottom: 20px;
+}
+
+/*--------------------------------------------------------main-content-contact*/
+
+.contact-title h1{
+    text-align: center;
+    font-size: 25px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-weight: 500;
+}
+
+.send-button{
+    width: 100px;
+    height: 30px;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    padding: 3px 10px;
+    text-align: center;
+    color: #000000;
+    font-size: 15px;
+    font-weight: 400;
+    cursor: pointer;
+    box-shadow: 1px 3px 10px 4px rgba(0, 0, 0, 0.25);
+    -o-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+.send-button:hover{
+    background-color: rgba(183, 132, 167, 0.8);
+    color: #000000;
+}
+
+.contact-form{
+    padding: 20px;
+    text-align: center;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    box-shadow: 1px 3px 10px 4px rgba(0, 0, 0, 0.25);
+}
+
+.contact-form #message,
+.contact-form #email,
+.contact-form #fname{
+    width: 80%;
 }
 
 /*--------------------------------------------------------Footer*/
@@ -300,6 +348,8 @@ body a:hover{
 
 /*--------------------------------------------------------media queries*/
 
+/*--------------------------------------------------------media queries mobile screens*/
+
 @media screen and (min-width: 320px){
     .profile-pic{
     width: 100px;
@@ -340,6 +390,8 @@ body a:hover{
     margin-top: 20px;
     }
 }
+
+/*--------------------------------------------------------media queries medium screens*/
 
 @media screen and (min-width: 720px){
     .profile-pic{
@@ -403,6 +455,8 @@ body a:hover{
     }
 }
 
+/*--------------------------------------------------------media queries large screens*/
+
 @media screen and (min-width: 992px){
     .profile-pic{
     width: 260px;
@@ -429,6 +483,8 @@ body a:hover{
         margin-top: 70px;
     }
 }
+
+/*--------------------------------------------------------media queries larger screens*/
 
 @media screen and (min-width: 1366px){
     .butterfly-background{

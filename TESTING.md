@@ -47,6 +47,6 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 ### Bugs
 
 -   Hero image was not displaying with the correct white overlay by default. Added a linear gradient overlay to fix this.
--   Footer layout broke when adding href to the copyright text. Corrected by changing text to show copyright logo and adding col-xs-auto in staed of col-ms-auto.
--   Header layout broke on smaller screens. added media query to .navbar-brand h1 to rduce font size.
+-   Footer layout broke when adding href to the copyright text. Corrected by changing text to show copyright logo and adding col-xs-auto in stead of col-ms-auto.
+-   Header layout broke on smaller screens. added media query to .navbar-brand h1 to reduce font size.
 -   Unable to create space between recipies on large screens and losing padding on smallest screens. Solved by adding a col-12 inside the col-lg-6.
