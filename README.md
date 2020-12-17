@@ -8,7 +8,6 @@ It showcases her skills and gives people free access to some of her favorite pas
 
 <h2 align="center"><img src="/assets/images/mockup-image.png"></h2>
 
----
 
 ## User Experience (UX)
 
@@ -73,7 +72,7 @@ It showcases her skills and gives people free access to some of her favorite pas
 
 -   More extensive introduction to kim.
 
-# contact page
+### contact page
 
 -   E-mail form
 
@@ -124,32 +123,42 @@ All testing can be found [here](https://github.com/JorisPaarde/Nomnivore-website
 
 The project was deployed to GitHub Pages using the following steps...
 
-1. Log in
-
+1. Log in to GitHub
+2. Locate the [repository](https://github.com/JorisPaarde/Nomnivore-website).
+3. Go to settings menu: <h4 align="center"><img src="/assets/images/settings.png"></h4>
+4. scroll down to the bottom of the page.
+5. Select master and save. <h4 align="center"><img src="/assets/images/select-save.png"></h4>
+6. View the publihed result. (This may take some time to show up correctly.) <h4 align="center"><img src="/assets/images/view.png"></h4>
 
 ### Making a Local Clone
 
-To make a local clone of this project, follow these steps:
+#### To make a local clone of this project on linux , follow these steps:
 
-1. Log in to github
-2. 
+1. Make sure u have git installed on your device.
+   If u haven't find out how to do that [here](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git).
+2. Log into GitHub.
+3. Locate the [repository](https://github.com/JorisPaarde/Nomnivore-website).
+4. Copy the link to the repository here: <h4 align="center"><img src="/assets/images/clone.png"></h4>
+5. Open a terminal and enter the following command (inside the directory u want the repository to be placed):
 
 ```
-$ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
+$ git clone https://github.com/JorisPaarde/Nomnivore-website.git
+
 ```
 
 7. Press Enter. Your local clone will be created.
 
 ```
-$ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
-> Cloning into `CI-Clone`...
-> remote: Counting objects: 10, done.
-> remote: Compressing objects: 100% (8/8), done.
-> remove: Total 10 (delta 1), reused 10 (delta 1)
-> Unpacking objects: 100% (10/10), done.
+$ git clone https://github.com/JorisPaarde/Nomnivore-website.git
+Cloning into Git …
+remote: Counting objects: 25, done.
+remote: Compressing objects: 100% (25/25), done.
+remove: Total 25 (delta 1), reused 0 (delta 1)
+Unpacking objects: 100% (25/25), done.
 ```
+8. your local clone is now ready.
 
-[Here]().
+#### To make a local clone of this project in Windows , follow [these](https://www.jcchouinard.com/clone-github-repository-on-windows/) steps:
 
 ---
 
@@ -159,9 +168,9 @@ $ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
 
 All the below mentioned code is also marked with comments in the code itself.
 
--   The social icons code came from the cv assignment lesson in the [code institute LMS](https://learn.codeinstitute.net/courses/course-v1:codeinstitute+FE+2017_T3/courseware/616289d66b5641a3808cc43e53842695/b51f7b8b815c4bcd9979d2281b6d97a9/)
+-   The social icons code came from the cv assignment lesson in the [code institute LMS](https://learn.codeinstitute.net/courses/course-v1:codeinstitute+FE+2017_T3/courseware/616289d66b5641a3808cc43e53842695/b51f7b8b815c4bcd9979d2281b6d97a9/).
 -   Copied and adjusted navbar from the [bootstrap website](https://getbootstrap.com/docs/4.0/components/navbar/).
--   [Bootstrap4](https://getbootstrap.com/docs/4.4/getting-started/introduction/): Bootstrap Library used to create the main structure of the pages of the website.
+-   [Bootstrap4](https://getbootstrap.com/docs/4.4/getting-started/introduction/) Library used to create the main structure of the pages of the website.
 
 ### Content
 
