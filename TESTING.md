@@ -1,13 +1,37 @@
+<h1 align="center">Nomnivore</h1>
+
+---
+
+## Code validators
+
+-   [W3C Markup Validator](https://jigsaw.w3.org/#validate_by_input) was used to test the html files on syntax errors.
+
+### index.html
+
+<h4 align="center"><img src="/assets/images/html-check-index.png"></h4>
+
+### contact.html
+
+<h4 align="center"><img src="/assets/images/html-check-contact.png"></h4>
+
+### over-kim.html
+
+<h4 align="center"><img src="/assets/images/html-check-over-kim.png"></h4>
+
+### recepten.html
+
+<h4 align="center"><img src="/assets/images/html-check-recepten.png"></h4>
 
 
-The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
+-   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) was used to test the css file on syntax errors.
 
--   [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](fill in)
--   [W3C CSS Validator](https://validator.w3.org/#validate_by_input) - [Results](fill in)
+### style.css
 
-### Testing User Stories from User Experience (UX) Section
+<h4 align="center"><img src="/assets/images/css-validation.png"></h4>
 
--   #### First Time Visitor Goals
+## Tests of the user stories from User Experience (UX) section
+
+-   ### First Time Visitor Goals
 
     1. As a First Time Visitor, I want to learn about what Nomnivore / Kim is and does.
         1. The hero image, as well as the hero text give a good quick idea of what kim does.
@@ -29,7 +53,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
         2. Also the social icons have a prominent place on the contact page.
  
 
--   #### Returning Visitor Goals
+-   ### Returning Visitor Goals
 
     1. As a Returning Visitor, I want to find the best way to get in contact with Kim with any questions I may have.
 
@@ -40,7 +64,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
         1. 
         2. 
 
--   #### Frequent User Goals
+-   ### Frequent User Goals
 
     1. As a Frequent User, I want to check to see if there are any newly added recipies.
 
@@ -48,14 +72,35 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
         2. something
 
 
-### Further Testing
+## Responsiveness tests
 
--   The Website was tested on 
--   The website was viewed on 
--   A large amount of testing was done to 
--   asked to review
+All pages were viewed on the folowing devices (in chrome dev tools) in landscape and portrait mode:
 
-### Bugs
+Moto g4             360*640
+Galaxy S5           360*640
+Pixel 2             411*731
+Pixel 2XL           411*823
+Iphone 5/SE         320*568
+Iphone 6/7/8        375*667
+Iphone 6/7/8 Plus   414*736
+Iphone X            375*812
+Ipad                1024*768
+Ipad Pro            1366*1024
+Surface Duo         540*720
+Galaxy Fold         280*653
+Responsive          1900*1080
+Responsive          1366*768
+
+On the Galaxy fold in portrait mode some of the layout broke.
+This was easily corrected by changing the media query from 320 px to 250px.
+
+On all other screensizes all pages looked fine.
+
+## Browser tests
+
+-
+
+## Bugs
 
 -   Hero image was not displaying with the correct white overlay by default. Added a linear gradient overlay to fix this.
 -   Footer layout broke when adding href to the copyright text. Corrected by changing text to show copyright logo and adding col-xs-auto in stead of col-ms-auto.
@@ -63,3 +108,6 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 -   Unable to create space between recipies on large screens and losing padding on smallest screens. Solved by adding a col-12 inside the col-lg-6.
 -   Z-index on the contact-info wasn't working. adding a position relative fixed the issue.
 -   Social icons on mobile did not show in one row. Adjusted margins.
+-   On the Galaxy fold in portrait mode some of the layout broke. This was easily corrected by changing the media query from 320 px to 250px.
+
+Back to [readme](https://github.com/JorisPaarde/Nomnivore-website/blob/master/README.md) file.

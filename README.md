@@ -35,10 +35,15 @@ It showcases her skills and gives people free access to some of her favorite pas
     -   #### Colour Scheme
 
         -   The main colours used are Mauve, black, white and grey.
+        -   [Psychology](https://www.colorpsychology.org/mauve/) of Mauve: Mauve is the hue of decadence, youth, and femininity. 
+            It evokes feelings of purity and devotion, with the moodiness of a deeper purple. 
+            Mauve brings to mind the ethos of renewal associated with springtime. 
+            People who choose mauve as their favorite color are hopeless romantics.
+
 
     -   #### Typography
 
-        -   The Montserrat font is the main font used on this website with Sans Serif as a backup.
+        -   The [Montserrat](https://fonts.google.com/specimen/Montserrat#about) font is the main font used on this website with Sans Serif as a backup.
             Montserrat is a clean font used in a website Kim liked.
             It's a modern font inspired by old posters and signs in the similarly named neighbourhood in Buenos Aires.
 
@@ -46,7 +51,7 @@ It showcases her skills and gives people free access to some of her favorite pas
 
         -   Imagery is focused on showing the skills Kim posseses, and being appetizing to induce people to try and make her pastry recipies.
 
-*   ### Mockup
+-   ### Mockup
 
     -  The mockup of this site was made in Figma. U can view it [here](https://www.figma.com/file/Xe8XdfTe7rEyKsy3L3sw9s/Awesome?node-id=0%3A1) 
 
@@ -54,14 +59,18 @@ It showcases her skills and gives people free access to some of her favorite pas
 
 ## Features
 
-###   All pages
+### Current Features
+
+####   All pages
 
 -   Responsive on all device sizes
+-   Collapsing hamburger menu 
 -   Links to socials
 
 ####   main page
 
 -   References from previous customers
+-   Responsive profile picture
 -   Contact button
 
 #### recipe page
@@ -72,9 +81,19 @@ It showcases her skills and gives people free access to some of her favorite pas
 
 -   More extensive introduction to kim.
 
-### contact page
+#### contact page
 
 -   E-mail form
+-   Social links
+-   responsive profile picture
+-   clickable e-mail adress
+-   clickable phone numbers
+
+### Possible future Features
+
+-   Mailing list to let users know a new recipe was added.
+-   contact form should be connected to a backend system to get it working.
+-   A pastry webshop could be a long term goal for this website.
 
 ---
 
@@ -174,17 +193,17 @@ All the below mentioned code is also marked with comments in the code itself.
 
 ### Content
 
--   Kim wrote sections bla bla and bla.
+-   Kimberly van Leeuwen wrote the recipies and over-kim section.
 -   All other content was written by the developer.
 -   All texts where reviewed by Melinda Schuurmans.
 
 ### Media
 
--   Foto's of all pastry where supplied by Kim
--   Images were edited by the developer excluding the ones metioned below.
--   Hero image from [Life of pix](https://www.pexels.com/photo/baking-pastry-dough-bakery-9095/)
--   Mockup was generated with [Techsini](https://techsini.com/multi-mockup/index.php)
--   Colors slected with the help of [hexcolortool](https://www.hexcolortool.com/)
+-   Foto's of all pastry where supplied by Kimberly van Leeuwen.
+-   Images were edited by the developer.
+-   Hero image thanks to [Life of pix](https://www.pexels.com/photo/baking-pastry-dough-bakery-9095/).
+-   Mockup image was generated with [Techsini](https://techsini.com/multi-mockup/index.php).
+-   Colors selected with the help of [hexcolortool](https://www.hexcolortool.com/).
 
 ### Acknowledgements
 
