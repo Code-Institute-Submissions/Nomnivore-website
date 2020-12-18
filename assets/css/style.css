@@ -9,6 +9,7 @@ body a:hover{
 }
 
 /*--------------------------------------------------------header*/
+
 .nav-background{
     height: 80px;
 }
@@ -179,7 +180,7 @@ body a:hover{
     margin-bottom: 100px;
 }
 
-.butterfly-background{
+.over-kim-background{
     position: absolute;
     background-image: url(../images/transparant-vlinder-dessert.png);
     z-index: 10;
@@ -203,16 +204,6 @@ body a:hover{
     font-size: 25px;
     margin-bottom: 20px;
     z-index: 100;
-}
-
-.profile-pic-small{
-    width: 0px;
-    height: 0px;
-    position: absolute;
-    left: 60vw;
-    top: 20px;
-    z-index: 2;
-    background-image:url("../images/freelance-kok-kim.png");
 }
 
 .recipe-section{
@@ -252,9 +243,23 @@ body a:hover{
 .contact-title h1{
     text-align: center;
     font-size: 25px;
-    margin-top: 40px;
-    margin-bottom: 40px;
+    margin-top: 60px;
+    margin-bottom: 20px;
     font-weight: 500;
+}
+
+.profile-pic-small{
+    width: 0px;
+    height: 0px;
+    position: absolute;
+    left: 80vw;
+    top: 120px;
+    z-index: 2;
+    background-image:url("../images/freelance-kok-kim.png");
+}
+
+.phone-number{
+    color: #000;
 }
 
 .send-button{
@@ -281,6 +286,10 @@ body a:hover{
 }
 
 .contact-form{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    z-index: 100;
+    background-color: #ffffff;
     padding: 20px;
     text-align: center;
     border: 1px solid #000000;
@@ -294,11 +303,57 @@ body a:hover{
     width: 80%;
 }
 
+.contact-background{
+    position: absolute;
+    background-image: url(../images/transparant-vlinder-dessert.png);
+    z-index: 10;
+    top: 350px;
+    width: 600px;
+    height: 600px;
+    opacity: 0.5;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+/*--below section with social icons code came from the cv assignment lesson in the code institute LMS --*/
+
+.social-contact{
+    margin-bottom: 30px;
+    padding: 15px 20px 10px 5px;
+}
+
+.social-contact li a i {
+    width: 50px;
+    height: 50px;
+    padding: 12px 0;
+    font-size: 25px;
+    color: #fafafa;
+    border-radius: 50%;
+    background: #8f8f8f;
+    text-align: center;
+    line-height: 25px;
+    -o-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    margin-right: 25px;
+}
+
+.social-contact li a i:hover {
+  background: #4b5582;
+  box-shadow: 2px 2px 5px 3px rgba(129, 75, 112, 0.6);
+}
+
+/*--above section with social icons code came from the cv assignment lesson in the code institute LMS --*/
+
+
 /*--------------------------------------------------------Footer*/
 .footer-background{
     height: 60px;
     background-image: linear-gradient(rgba(183, 132, 167, 0),rgba(183, 132, 167, 1), rgba(120, 88, 110, 1));
 }
+
+/*--below section with social icons code came from the cv assignment lesson in the code institute LMS --*/
 
 .social-links{
     padding: 15px 20px 10px 5px;
@@ -326,6 +381,8 @@ body a:hover{
   box-shadow: 2px 2px 5px 3px rgba(129, 75, 112, 0.6);
 }
 
+/*--above section with social icons code came from the cv assignment lesson in the code institute LMS --*/
+
 .copyright{
     padding: 10px;
     margin-top: 10px;
@@ -346,7 +403,7 @@ body a:hover{
     text-shadow: 8px 8px 4px rgba(129, 75, 112, 1);
 }
 
-/*--------------------------------------------------------media queries*/
+/*--------------------------------------------------------media queries---------------------------------------------*/
 
 /*--------------------------------------------------------media queries mobile screens*/
 
@@ -374,10 +431,7 @@ body a:hover{
     .reference-titel{
     padding-left: 20px;
     }
-    .butterfly-background{
-    width: 0px;
-    height: 0px;
-    }
+    
     .recipe-pic{
     position: relative;
     top: -10px;
@@ -443,7 +497,12 @@ body a:hover{
         background-size: cover;
         box-shadow: 10px 10px 14px 8px rgba(0, 0, 0, 0.4);
     }
-    
+    .contact-background{
+        top: 650px;
+        left: -100;
+        height: 300px;
+        width: 300px;
+    }
 }
 
 @media screen and (max-width: 540px){
@@ -482,6 +541,18 @@ body a:hover{
     .text-block-over-kim{
         margin-top: 70px;
     }
+    .contact-background{
+        position: absolute;
+        background-image: url(../images/transparant-vlinder-dessert.png);
+        z-index: 10;
+        top: 550px;
+        left: -100px;
+        width: 600px;
+        height: 600px;
+        opacity: 0.5;
+        background-size: contain;
+        background-repeat: no-repeat;
+    } 
 }
 
 /*--------------------------------------------------------media queries larger screens*/
