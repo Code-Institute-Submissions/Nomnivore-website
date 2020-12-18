@@ -11,23 +11,34 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
     1. As a First Time Visitor, I want to learn about what Nomnivore / Kim is and does.
         1. The hero image, as well as the hero text give a good quick idea of what kim does.
-        2. The about kim and recipe sections alow the user to find more information.
+        2. The welcome text expands on this.
+        3. The about kim and recipe sections alow the user to find more information.
+
      2. As a First Time Visitor, I want to be able to easily navigate throughout the site to find content.
-        1. the navbar gives easy acces to the different pages of the site. the fact that it sticks to the top allows for easy navigation
+        1. The navbar gives easy acces to the different pages of the site. the fact that it sticks to the top allows for easy navigation
             regardless of the users location on the site.
+        2. All clickable links have an animation on them to indicate to the user that there is an action associated with it.
+        3. The navbar indicates the location on the site by changing the color of the current active link.
+
     3. As a First Time Visitor, I want to look for testimonials to find out how skilled Kim is.
         1. Testimonials are front and center on the main page, giving the first time visitor an immediate idea of Kim's skill level.
+        2. The about kim and recipe sections alow the user to find even more information on the skills Kim posesses.
+
     4. As a First Time Visitor, I want to locate her social media links to see her products and events.
+        1. The socia icons are located in the footer, which is always shown by sticking to the bottom of the screen.
+        2. Also the social icons have a prominent place on the contact page.
  
 
 -   #### Returning Visitor Goals
 
     1. As a Returning Visitor, I want to find the best way to get in contact with Kim with any questions I may have.
+
         1. 
+
     2. As a Returning Visitor, I want to find recipies for deliscious pastry.
+
         1. 
         2. 
-
 
 -   #### Frequent User Goals
 
@@ -50,3 +61,5 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 -   Footer layout broke when adding href to the copyright text. Corrected by changing text to show copyright logo and adding col-xs-auto in stead of col-ms-auto.
 -   Header layout broke on smaller screens. added media query to .navbar-brand h1 to reduce font size.
 -   Unable to create space between recipies on large screens and losing padding on smallest screens. Solved by adding a col-12 inside the col-lg-6.
+-   Z-index on the contact-info wasn't working. adding a position relative fixed the issue.
+-   Social icons on mobile did not show in one row. Adjusted margins.

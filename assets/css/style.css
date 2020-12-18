@@ -191,9 +191,10 @@ body a:hover{
     position: absolute;
     background-image: url(../images/transparant-vlinder-dessert.png);
     z-index: 10;
-    top: 650px;
-    width: 600px;
-    height: 600px;
+    top: 850px;
+    left: -200px;
+    width: 0px;
+    height: 0px;
     opacity: 0.5;
     background-size: contain;
     background-repeat: no-repeat;
@@ -256,8 +257,8 @@ body a:hover{
 }
 
 .profile-pic-contact{
-    width: 0px;
-    height: 0px;
+    width: 100px;
+    height: 100px;
     position: absolute;
     left: 68vw;
     top: 180px;
@@ -267,6 +268,10 @@ body a:hover{
 
 .phone-number{
     color: #000;
+}
+
+.email{
+   color: #000; 
 }
 
 .send-button{
@@ -315,8 +320,8 @@ body a:hover{
     background-image: url(../images/transparant-vlinder-dessert.png);
     z-index: 10;
     top: 350px;
-    width: 600px;
-    height: 600px;
+    width: 0px;
+    height: 0px;
     opacity: 0.5;
     background-size: contain;
     background-repeat: no-repeat;
@@ -354,6 +359,11 @@ body a:hover{
 .social-contact li a i:hover {
   background: #4b5582;
   box-shadow: 2px 2px 5px 3px rgba(129, 75, 112, 0.6);
+}
+
+.contact-info{
+    position: relative;
+    z-index: 100;
 }
 
 /*--above section with social icons code came from the cv assignment lesson in the code institute LMS --*/
@@ -423,7 +433,7 @@ body a:hover{
     .profile-pic{
         width: 0px;
         height: 0px;
-        }
+    }
     .hero-text{
         font-size: 20px;
     }
@@ -452,6 +462,9 @@ body a:hover{
     }
     .recipe-section{
         margin-top: 20px;
+    }
+    .social-contact li{
+        margin: 10px;
     }
 }
 
@@ -513,6 +526,13 @@ body a:hover{
         height: 300px;
         width: 300px;
     }
+    .social-contact li{
+        margin: 0px 20px;
+    }
+    .over-kim-background{
+    width: 600px;
+    height: 600px;
+}
 }
 
 @media screen and (max-width: 540px){
@@ -572,7 +592,7 @@ body a:hover{
 /*--------------------------------------------------------media queries larger screens*/
 
 @media screen and (min-width: 1366px){
-    .butterfly-background{
+    .contact-background{
         width: 600px;
         height: 600px;
         left: -150px;
@@ -582,5 +602,11 @@ body a:hover{
     }
     .text-block-over-kim p{
         font-size: 18px;
+    }
+}
+
+@media screen and (min-height: 1366px){
+    .contact-background{
+        top: 750px;
     }
 }
