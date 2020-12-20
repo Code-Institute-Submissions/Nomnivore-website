@@ -1,6 +1,6 @@
 <h1 align="center">Nomnivore</h1>
 
-<p align="center">Nomnivore is the company of Kim van Leeuwen where she introduces herself as your go to freelance pastry chef.
+<p>Nomnivore is the company of Kim van Leeuwen where she introduces herself as your go to freelance pastry chef.
 It showcases her skills and gives people free access to some of her favorite pastry recipies.</p>
 
 [View the live project here.](https://jorispaarde.github.io/Nomnivore-website/)
@@ -11,47 +11,47 @@ It showcases her skills and gives people free access to some of her favorite pas
 
 ## User Experience (UX)
 
--   ### User stories
+### User stories
 
-    -   #### First Time Visitor Goals
+#### First Time Visitor Goals
 
-        1. As a First Time Visitor, I want to learn about what Nomnivore / Kim is and does.
-        2. As a First Time Visitor, I want to be able to easily navigate throughout the site to find content.
-        3. As a First Time Visitor, I want to look for testimonials to find out how skilled Kim is.
-        4. As a First Time Visitor, I want to locate her social media links to see her products and events.
+1. As a First Time Visitor, I want to learn about what Nomnivore / Kim is and does.
+2. As a First Time Visitor, I want to be able to easily navigate throughout the site to find content.
+3. As a First Time Visitor, I want to look for testimonials to find out how skilled Kim is.
+4. As a First Time Visitor, I want to locate her social media links to see her products and events.
 
-    -   #### Returning Visitor Goals
+#### Returning Visitor Goals
 
-        1. As a Returning Visitor, I want to find my preffered way to get in contact with Kim with any questions I may have.
-        2. As a Returning Visitor, I want to find recipies for deliscious pastry.
+1. As a Returning Visitor, I want to find my preffered way to get in contact with Kim with any questions I may have.
+2. As a Returning Visitor, I want to find recipies for deliscious pastry.
 
-    -   #### Frequent User Goals
+#### Frequent User Goals
 
-        1. As a Frequent User, I want to check to see if there are any newly added recipies.
+1. As a Frequent User, I want to check to see if there are any newly added recipies.
 
--   ### Design
+### Design
 
-    -   #### Colour Scheme
+#### Colour Scheme
 
-        -   The main colours used are Mauve, black, white and grey.
-        -   [Psychology](https://www.colorpsychology.org/mauve/) of Mauve: Mauve is the hue of decadence, youth, and femininity. 
-            It evokes feelings of purity and devotion, with the moodiness of a deeper purple. 
-            Mauve brings to mind the ethos of renewal associated with springtime. 
-            People who choose mauve as their favorite color are hopeless romantics.
+-   The main colours used are Mauve, black, white and grey.
+-   [Psychology](https://www.colorpsychology.org/mauve/) of Mauve: Mauve is the hue of decadence, youth, and femininity. 
+    It evokes feelings of purity and devotion, with the moodiness of a deeper purple. 
+    Mauve brings to mind the ethos of renewal associated with springtime. 
+    People who choose mauve as their favorite color are hopeless romantics.
 
-    -   #### Typography
+#### Typography
 
-        -   The [Montserrat](https://fonts.google.com/specimen/Montserrat#about) font is the main font used on this website with Sans Serif as a backup.
-            Montserrat is a clean font used in a website Kim liked.
-            It's a modern font inspired by old posters and signs in the similarly named neighbourhood in Buenos Aires.
+ -   The [Montserrat](https://fonts.google.com/specimen/Montserrat#about) font is the main font used on this website with Sans Serif as a backup.
+    Montserrat is a clean font used in a website Kim liked.
+    It's a modern font inspired by old posters and signs in the similarly named neighbourhood in Buenos Aires.
 
-    -   #### Imagery
+#### Imagery
 
-        -   Imagery is focused on showing the skills Kim posseses, and being appetizing to induce people to try and make her pastry recipies.
+-   Imagery is focused on showing the skills Kim posseses, and being appetizing to induce people to try and make her pastry recipies.
 
--   ### Mockup
+### Mockup
 
-    -  The mockup of this site was made in Figma. U can view it [here](https://www.figma.com/file/Xe8XdfTe7rEyKsy3L3sw9s/Awesome?node-id=0%3A1) 
+-  The mockup of this site was made in Figma. U can view it [here](https://www.figma.com/file/Xe8XdfTe7rEyKsy3L3sw9s/Awesome?node-id=0%3A1) 
 
 ---
 
