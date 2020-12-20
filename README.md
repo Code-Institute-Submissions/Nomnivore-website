@@ -22,13 +22,12 @@ It showcases her skills and gives people free access to some of her favorite pas
 
     -   #### Returning Visitor Goals
 
-        1. As a Returning Visitor, I want to find the best way to get in contact with Kim with any questions I may have.
+        1. As a Returning Visitor, I want to find my preffered way to get in contact with Kim with any questions I may have.
         2. As a Returning Visitor, I want to find recipies for deliscious pastry.
 
     -   #### Frequent User Goals
 
         1. As a Frequent User, I want to check to see if there are any newly added recipies.
-
 
 -   ### Design
 
@@ -39,7 +38,6 @@ It showcases her skills and gives people free access to some of her favorite pas
             It evokes feelings of purity and devotion, with the moodiness of a deeper purple. 
             Mauve brings to mind the ethos of renewal associated with springtime. 
             People who choose mauve as their favorite color are hopeless romantics.
-
 
     -   #### Typography
 
@@ -127,12 +125,14 @@ It showcases her skills and gives people free access to some of her favorite pas
     - Figma was used to create the website design and prototype.
 1. [TinyPNG](https://tinypng.com/)
     - TinyPNG was used to compress all images to ensure faster load times.
+1. [Browserstack](https://live.browserstack.com/)
+    - To test the site on a variety of devices and browsers.
 
 ---
 
 ## Testing
 
-All testing can be found [here](https://github.com/JorisPaarde/Nomnivore-website/blob/master/TESTING.md)
+All testing can be found [here](https://github.com/JorisPaarde/Nomnivore-website/blob/master/TESTING.md).
 
 ---
 
@@ -193,7 +193,10 @@ All the below mentioned code is also marked with comments in the code itself.
 
 ### Content
 
--   Kimberly van Leeuwen wrote the recipies and over-kim section.
+-   
+-   Recipe for the [birthday cake](https://www.laurasbakery.nl/4-persoons-taart-met-rood-fruit/).
+-   Recipe for the [chocolate cake](https://www.oetker.nl/nl-nl/recept/r/choco-bombe).
+-   Recipe for the [bonbon](https://rutgerbakt.nl/friandise-recepten/bonbons/recept-bonbons-karamel-en-vanille/)
 -   All other content was written by the developer.
 -   All texts where reviewed by Melinda Schuurmans.
 
@@ -207,6 +210,7 @@ All the below mentioned code is also marked with comments in the code itself.
 
 ### Acknowledgements
 
--   My Mentor for continuous helpful feedback.
--   Everyone on Slack for their support.
--   Basic Readme layout by Code Institute.
+-   My Mentor for his helpful feedback and upfront warnings for common mistakes. This saved me a lot of time.
+-   My fellow students and sveral other mentors on Slack for their debugging tips.
+-   The basic Readme layout by Code Institute.
+-   Anna Gilhespy for her exelent explanation on bootstrap columns in her youtube [video](https://www.youtube.com/watch?v=zDpCejbl1sU).
