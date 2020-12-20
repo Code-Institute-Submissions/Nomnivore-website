@@ -128,6 +128,7 @@ On all other screensizes all pages looked fine.
 -   Social icons on mobile did not show in one row. Adjusted margins.
 -   On the Galaxy fold in portrait mode some of the layout broke. This was easily corrected by changing the media query from 320 px to 250px.
 -   The last recipe was partially hidden beneath the footer. Fixed by minor margin adjustment on all screensizes.
+-   E-mail subject not displaying correctly. Forgot questionmark.
 
 
 [Click here to go back to the readme file.](https://github.com/JorisPaarde/Nomnivore-website/blob/master/README.md)

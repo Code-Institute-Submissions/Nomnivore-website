@@ -363,6 +363,7 @@ body a:hover{
 .contact-info{
     position: relative;
     z-index: 100;
+    margin-bottom: 60px;
 }
 
 /*--above section with social icons code came from the cv assignment lesson in the code institute LMS --*/
