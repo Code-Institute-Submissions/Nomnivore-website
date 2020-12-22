@@ -8,26 +8,26 @@
 
 ### index.html
 
-<h4 align="center"><img src="/assets/images/html-check-index.png"></h4>
+<h4 align="center"><img src="/assets/readme-images/html-check-index.png"></h4>
 
 ### contact.html
 
-<h4 align="center"><img src="/assets/images/html-check-contact.png"></h4>
+<h4 align="center"><img src="/assets/readme-images/html-check-contact.png"></h4>
 
 ### over-kim.html
 
-<h4 align="center"><img src="/assets/images/html-check-over-kim.png"></h4>
+<h4 align="center"><img src="/assets/readme-images/html-check-over-kim.png"></h4>
 
 ### recepten.html
 
-<h4 align="center"><img src="/assets/images/html-check-recepten.png"></h4>
+<h4 align="center"><img src="/assets/readme-images/html-check-recepten.png"></h4>
 
 
 -   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) was used to test the css file on syntax errors.
 
 ### style.css
 
-<h4 align="center"><img src="/assets/images/css-validation.png"></h4>
+<h4 align="center"><img src="/assets/readme-images/css-validation.png"></h4>
 
 ## Tests of the user stories from User Experience (UX) section
 
@@ -45,6 +45,7 @@
         regardless of the users location on the site.
     2. All clickable links have an animation on them to indicate to the user that there is an action associated with it.
     3. The navbar indicates the location on the site by changing the color of the current active link.
+    4. The navbar changes to a hamburger menu on mobile.
 
 3. As a First Time Visitor, I want to look for testimonials to find out how skilled Kim is.
 
@@ -79,27 +80,35 @@
 
 ## Responsiveness tests
 
-All pages were viewed on the folowing devices (in chrome dev tools) in landscape and portrait mode:
+All pages were viewed and tested on the folowing devices in landscape and portrait mode:
 
-- Moto g4             360*640
-- Galaxy S5           360*640
-- Pixel 2             411*731
-- Pixel 2XL           411*823
-- Iphone 5/SE         320*568
-- Iphone 6/7/8        375*667
-- Iphone 6/7/8 Plus   414*736
-- Iphone X            375*812
-- Ipad                1024*768
-- Ipad Pro            1366*1024
-- Surface Duo         540*720
-- Galaxy Fold         280*653
-- Responsive desktop  1900*1080
-- Responsive desktop  1366*768
+- Moto g4             360*640 (in chrome dev tools)
+- Galaxy S5           360*640 (in chrome dev tools)
+- Pixel 2             411*731 (in chrome dev tools)
+- Pixel 2XL           411*823 (in chrome dev tools)
+- Iphone 5/SE         320*568 (in chrome dev tools)
+- Iphone 6/7/8        375*667 (physical device)
+- Iphone 6/7/8 Plus   414*736 (in chrome dev tools)
+- Iphone X            375*812 (in chrome dev tools)
+- Ipad                1024*768 (physical device)
+- Ipad Pro            1366*1024 (in chrome dev tools)
+- Surface Duo         540*720 (in chrome dev tools)
+- Galaxy Fold         280*653 (in chrome dev tools)
+- Responsive desktop  1900*1080 (physical device)
+- Responsive desktop  1366*768 (physical device)
+
+### The following aspects were checked:
+
+All images rendered as expected. No pixelation or streched images were found.
+Layouts were displaying as they should.
+No content was obstructed by broken layout or backgrounds.
+All the links in the navigation worked.
+Also the links to email and telephone numbers worked correctly.
+
+### Issues found:
 
 On the Galaxy fold in portrait mode some of the layout broke.
 This was easily corrected by changing the media query from 320 px to 250px.
-
-On all other screensizes all pages looked fine.
 
 ## Browser tests
 
@@ -115,6 +124,14 @@ On all other screensizes all pages looked fine.
 
 -   For Internet explorer the site and links were tested on:
     - On [Browserstack](https://live.browserstack.com/) to simulate a windos machine running win8.1 with Internet Explorer v11.
+
+### The following aspects were checked:
+
+All images rendered as expected. No pixelation or streched images were found.
+Layouts were displaying as they should.
+No content was obstructed by broken layout or backgrounds.
+All the links in the navigation worked.
+Also the links to email and telephone numbers worked correctly.
 
 ---
 

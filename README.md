@@ -6,7 +6,7 @@ It showcases her skills and gives people free access to some of her favorite pas
 [View the live project here.](https://jorispaarde.github.io/Nomnivore-website/)
 
 
-<h2 align="center"><img src="/assets/images/mockup-image.png"></h2>
+<h2 align="center"><img src="/assets/readme-images/mockup-image.png"></h2>
 
 
 ## User Experience (UX)
@@ -90,7 +90,7 @@ It showcases her skills and gives people free access to some of her favorite pas
 ### Possible future Features
 
 -   Mailing list to let users know a new recipe was added.
--   contact form should be connected to a backend system to get it working.
+-   contact form will be fully functional.
 -   A pastry webshop could be a long term goal for this website.
 
 ---
@@ -144,10 +144,10 @@ The project was deployed to GitHub Pages using the following steps...
 
 1. Log in to GitHub
 2. Locate the [repository](https://github.com/JorisPaarde/Nomnivore-website).
-3. Go to settings menu: <h4 align="center"><img src="/assets/images/settings.png"></h4>
+3. Go to settings menu: <h4 align="center"><img src="/assets/readme-images/settings.png"></h4>
 4. scroll down to the bottom of the page.
-5. Select master and save. <h4 align="center"><img src="/assets/images/select-save.png"></h4>
-6. View the publihed result. (This may take some time to show up correctly.) <h4 align="center"><img src="/assets/images/view.png"></h4>
+5. Select master and save. <h4 align="center"><img src="/assets/readme-images/select-save.png"></h4>
+6. View the publihed result. (This may take some time to show up correctly.) <h4 align="center"><img src="/assets/readme-images/view.png"></h4>
 
 ### Making a Local Clone
 
@@ -157,7 +157,7 @@ The project was deployed to GitHub Pages using the following steps...
    If u haven't find out how to do that [here](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git).
 2. Log into GitHub.
 3. Locate the [repository](https://github.com/JorisPaarde/Nomnivore-website).
-4. Copy the link to the repository here: <h4 align="center"><img src="/assets/images/clone.png"></h4>
+4. Copy the link to the repository here: <h4 align="center"><img src="/assets/readme-images/clone.png"></h4>
 5. Open a terminal and enter the following command (inside the directory u want the repository to be placed):
 
 ```
@@ -193,7 +193,6 @@ All the below mentioned code is also marked with comments in the code itself.
 
 ### Content
 
--   
 -   Recipe for the [birthday cake](https://www.laurasbakery.nl/4-persoons-taart-met-rood-fruit/).
 -   Recipe for the [chocolate cake](https://www.oetker.nl/nl-nl/recept/r/choco-bombe).
 -   Recipe for the [bonbon](https://rutgerbakt.nl/friandise-recepten/bonbons/recept-bonbons-karamel-en-vanille/)
