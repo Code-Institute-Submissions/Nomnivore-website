@@ -1,154 +1,172 @@
 <!DOCTYPE html>
 <html lang="nl">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
-    <link rel="stylesheet" href="assets/css/style.css" type="text/css">
-    <title>Nomnivore</title>
-</head>
-<body>
-<!-- Navigation bar -->
-<nav class="container-fluid nav-background">
-    <div class="row">
-        <div class="col-12">
-            <!-- Navigation bar Copied and adjusted navbar from the bootstrap website -->
-            <div class="navbar navbar-expand-md fixed-top navbar-light bg-light">
-            <a class="navbar-brand current-link" href="index.html"><h1>Nomnivore</h1> </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ml-auto">
-                <li class="nav-item">
-                    <a class="nav-link current-link" href="index.html"><p>Home</p></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link text-white" href="recepten.html"><p>Recepten</p></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link text-white" href="over-kim.html"><p>Over Kim</p></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link text-white" href="contact.html"><p>Contact</p></a>
-                </li>
-                </ul>
-            </div>
-        </div>
-        </div>
-    </div>
-</nav>
-<!-- Hero section -->
-<section>
-    <div class="container-fluid hero-image">
-        <div class="row align-items-center">
-            <div class="col">
-                <h1 class="hero-text">Kim van Leeuwen<br>Nomnivore<br>Freelance Kok & Patissier</h1>
-                <div class="profile-pic"></div>
-            </div>
-        </div>
-    </div>
-</section>
-<!-- main content section-->
-<section>
-    <!-- call to action-->
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-12 call-to-action">
-                <a class="contact-button" href="contact.html">Contact</a> 
-            </div>
-        </div>
-        <div class="row justify-content-center">
-            <div class="col-md-8 welcome-text">
-                <h2 class="text-center">Uw freelance kok is slechts één klik verwijderd</h2>
-                <p class="text-center">
-                    Ik ben Kimberly van Leeuwen, (N)omnivore in hart en nieren. 
-                    Als Freelance chef en patissier ga ik graag in uw bedrijf aan de slag. 
-                    Voor het ontwikkelen van nieuwe producten, het draaien van partijen of uw team te versterken.
-                    <br><br>
-                    Opdrachtgevers over Kim:
-                </p>
-            </div>
-        </div>
-    </div>
-    <!-- references-->
-    <div class="container-fluid">
-        <div class="row justify-content-md-center">
-            <div class="col-md-8">
-                <div class="col-md-12 reference">
-                    <div class="row">
-                        <div class="col-2">
-                        <div class="reference-logo-1"></div>
-                        </div>
-                        <div class="col-10 reference-titel"><h1>Culinair Centrum Beverwijk</h1></div>
-                    </div>
-                    <div class="row">
-                        <div class="col-12 reference-text"><p>"Het is altijd plezierig met Kim te werken. Ze is professioneel, prettig in de omgang en past zich snel aan. 
-                        Een echte aanvulling van het team. Wij kunnen iedereen aanraden om met Kim in zee te gaan."</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-8">
-                <div class="col-12 reference">
-                    <div class="row">
-                        <div class="col-2">
-                        <div class="reference-logo-2"></div>
-                        </div>
-                        <div class="col-10 reference-titel"><h1>Jeroen Goossens</h1></div>
-                    </div>
-                    <div class="row">
-                        <div class="col-12 reference-text"><p>"Ik stel altijd hoge eisen, aan mijn producten en mijn personeel.
-                        Met Kim hoef ik me over beide nooit zorgen te maken. Kim is een op en top professional die zeker een aanvulling op uw team zal zijn."</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="row">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+      <link rel="stylesheet" href="assets/css/style.css" type="text/css">
+      <title>Nomnivore</title>
+   </head>
+   <body>
+      <!-- Navigation bar -->
+      <nav class="container-fluid nav-background">
+         <div class="row">
             <div class="col-12">
-                <div class="background-deco"></div>
+               <!-- Navigation bar Copied and adjusted navbar from the bootstrap website -->
+               <div class="navbar navbar-expand-md fixed-top navbar-light bg-light">
+                  <a class="navbar-brand current-link" href="index.html">
+                     <h1>Nomnivore</h1>
+                  </a>
+                  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarNav">
+                     <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                           <a class="nav-link current-link" href="index.html">
+                              <p>Home</p>
+                           </a>
+                        </li>
+                        <li class="nav-item">
+                           <a class="nav-link text-white" href="recepten.html">
+                              <p>Recepten</p>
+                           </a>
+                        </li>
+                        <li class="nav-item">
+                           <a class="nav-link text-white" href="over-kim.html">
+                              <p>Over Kim</p>
+                           </a>
+                        </li>
+                        <li class="nav-item">
+                           <a class="nav-link text-white" href="contact.html">
+                              <p>Contact</p>
+                           </a>
+                        </li>
+                     </ul>
+                  </div>
+               </div>
             </div>
-        </div>
-    </div>
-</section>
-<!-- footer section -->
-<footer class="container-fluid fixed-bottom">
-    <div class="row footer-background">
-        <div class="col copyright"><a target="_blank" href="https://www.linkedin.com/in/joris-dominicus-adam-paardekooper-overman-536b505a/">&copy; Joris Paardekooper</a></div>
-        <div class="col-xs-auto">
-            <!--section with social icons code came from the cv assignment lesson in the code institute LMS -->
-            <ul class="list-inline social-links">
-            <li class="list-inline-item">
-              <a
-                target="_blank"
-                href="https://www.facebook.com/Nomnivore-105839921382834"
-              >
-                <i class="fa fa-facebook facebook-logo" aria-hidden="true"></i>
-                <span class="sr-only">Facebook</span>
-              </a>
-            </li>
-            <li class="list-inline-item">
-              <a target="_blank" href="https://www.instagram.com/kimvnleeuwen/">
-                <i class="fa fa-instagram" aria-hidden="true"></i>
-                <span class="sr-only">Instagram</span>
-              </a>
-            </li>
-            <li class="list-inline-item">
-              <a
-                target="_blank"
-                href="https://www.linkedin.com/in/kimberley-van-leeuwen-33657998/"
-              >
-                <i class="fa fa-linkedin" aria-hidden="true"></i>
-                <span class="sr-only">Linkedin</span>
-              </a>
-            </li>
-            </ul>
-        </div>
-    </div>
-</footer>
-<script src="https://kit.fontawesome.com/72709fc3c4.js" crossorigin="anonymous"></script>
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
-</body>
+         </div>
+      </nav>
+      <!-- Hero section -->
+      <section>
+         <div class="container-fluid hero-image">
+            <div class="row align-items-center">
+               <div class="col">
+                  <h1 class="hero-text">Kim van Leeuwen<br>Nomnivore<br>Freelance Kok & Patissier</h1>
+                  <div class="profile-pic"></div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- main content section-->
+      <section>
+         <!-- call to action-->
+         <div class="container-fluid">
+            <div class="row">
+               <div class="col-12 call-to-action">
+                  <a class="contact-button" href="contact.html">Contact</a> 
+               </div>
+            </div>
+            <div class="row justify-content-center">
+               <div class="col-md-8 welcome-text">
+                  <h2 class="text-center">Uw freelance kok is slechts één klik verwijderd</h2>
+                  <p class="text-center">
+                     Ik ben Kimberly van Leeuwen, (N)omnivore in hart en nieren. 
+                     Als Freelance chef en patissier ga ik graag in uw bedrijf aan de slag. 
+                     Voor het ontwikkelen van nieuwe producten, het draaien van partijen of uw team te versterken.
+                     <br><br>
+                     Opdrachtgevers over Kim:
+                  </p>
+               </div>
+            </div>
+         </div>
+         <!-- references-->
+         <div class="container-fluid">
+            <div class="row justify-content-md-center">
+               <div class="col-md-8">
+                  <div class="col-md-12 reference">
+                     <div class="row">
+                        <div class="col-2">
+                           <div class="reference-logo-1"></div>
+                        </div>
+                        <div class="col-10 reference-titel">
+                           <h1>Culinair Centrum Beverwijk</h1>
+                        </div>
+                     </div>
+                     <div class="row">
+                        <div class="col-12 reference-text">
+                           <p>"Het is altijd plezierig met Kim te werken. Ze is professioneel, prettig in de omgang en past zich snel aan. 
+                              Een echte aanvulling van het team. Wij kunnen iedereen aanraden om met Kim in zee te gaan."
+                           </p>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-md-8">
+                  <div class="col-12 reference">
+                     <div class="row">
+                        <div class="col-2">
+                           <div class="reference-logo-2"></div>
+                        </div>
+                        <div class="col-10 reference-titel">
+                           <h1>Jeroen Goossens</h1>
+                        </div>
+                     </div>
+                     <div class="row">
+                        <div class="col-12 reference-text">
+                           <p>"Ik stel altijd hoge eisen, aan mijn producten en mijn personeel.
+                              Met Kim hoef ik me over beide nooit zorgen te maken. Kim is een op en top professional die zeker een aanvulling op uw team zal zijn."
+                           </p>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="row">
+               <div class="col-12">
+                  <div class="background-deco"></div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- footer section -->
+      <footer class="container-fluid fixed-bottom">
+         <div class="row footer-background">
+            <div class="col copyright"><a target="_blank" href="https://www.linkedin.com/in/joris-dominicus-adam-paardekooper-overman-536b505a/">&copy; Joris Paardekooper</a></div>
+            <div class="col-xs-auto">
+               <!--section with social icons code came from the cv assignment lesson in the code institute LMS -->
+               <ul class="list-inline social-links">
+                  <li class="list-inline-item">
+                     <a
+                        target="_blank"
+                        href="https://www.facebook.com/Nomnivore-105839921382834"
+                        >
+                     <i class="fa fa-facebook facebook-logo" aria-hidden="true"></i>
+                     <span class="sr-only">Facebook</span>
+                     </a>
+                  </li>
+                  <li class="list-inline-item">
+                     <a target="_blank" href="https://www.instagram.com/kimvnleeuwen/">
+                     <i class="fa fa-instagram" aria-hidden="true"></i>
+                     <span class="sr-only">Instagram</span>
+                     </a>
+                  </li>
+                  <li class="list-inline-item">
+                     <a
+                        target="_blank"
+                        href="https://www.linkedin.com/in/kimberley-van-leeuwen-33657998/"
+                        >
+                     <i class="fa fa-linkedin" aria-hidden="true"></i>
+                     <span class="sr-only">Linkedin</span>
+                     </a>
+                  </li>
+               </ul>
+            </div>
+         </div>
+      </footer>
+      <script src="https://kit.fontawesome.com/72709fc3c4.js" crossorigin="anonymous"></script>
+      <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+   </body>
 </html>
