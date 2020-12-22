@@ -55,7 +55,7 @@ body a:hover{
 /*--------------------------------------------------------Hero area*/
 
 .hero-image{
-    background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0.2),rgba(255,255,255,1)), url("../images/freelance-kok-kneed-deeg.png");
+    background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0.2),rgba(255,255,255,1)), url("../images/freelance-kok-kneed-deeg.webp");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -66,7 +66,7 @@ body a:hover{
     left: 70%;
     top: 20px;
     z-index: 10;
-    background-image:url("../images/freelance-kok-kim.png");
+    background-image:url("../images/freelance-kok-kim.webp");
     border: 1px solid #000;
     border-radius: 50%;
     background-repeat: no-repeat;
@@ -168,7 +168,7 @@ body a:hover{
     left: 10px;
     width: 500px;
     height: 600px;
-    background-image: url("../images/framboos-transparant.png");
+    background-image: url("../images/framboos-transparant.webp");
     opacity: 0.2;
     background-size: contain;
     background-repeat: no-repeat;
@@ -189,7 +189,7 @@ body a:hover{
 
 .over-kim-background{
     position: absolute;
-    background-image: url(../images/transparant-vlinder-dessert.png);
+    background-image: url(../images/transparant-vlinder-dessert.webp);
     z-index: 10;
     top: 850px;
     left: -200px;
@@ -262,7 +262,7 @@ body a:hover{
     left: 68vw;
     top: 180px;
     z-index: 10;
-    background-image:url("../images/freelance-kok-kim.png");
+    background-image:url("../images/freelance-kok-kim.webp");
 }
 
 .phone-number{
@@ -316,7 +316,7 @@ body a:hover{
 
 .contact-background{
     position: absolute;
-    background-image: url(../images/transparant-vlinder-dessert.png);
+    background-image: url(../images/transparant-vlinder-dessert.webp);
     z-index: 10;
     top: 350px;
     width: 0px;
@@ -574,7 +574,7 @@ body a:hover{
     }
     .contact-background{
         position: absolute;
-        background-image: url(../images/transparant-vlinder-dessert.png);
+        background-image: url(../images/transparant-vlinder-dessert.webp);
         z-index: 10;
         top: 550px;
         left: -100px;
