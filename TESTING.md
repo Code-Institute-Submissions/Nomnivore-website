@@ -8,26 +8,26 @@
 
 ### index.html
 
-<h4 align="center"><img src="/assets/readme-images/html-check-index.png"></h4>
+<h4 align="center"><img src="/readme-images/html-check-index.png"></h4>
 
 ### contact.html
 
-<h4 align="center"><img src="/assets/readme-images/html-check-contact.png"></h4>
+<h4 align="center"><img src="/readme-images/html-check-contact.png"></h4>
 
 ### over-kim.html
 
-<h4 align="center"><img src="/assets/readme-images/html-check-over-kim.png"></h4>
+<h4 align="center"><img src="/readme-images/html-check-over-kim.png"></h4>
 
 ### recepten.html
 
-<h4 align="center"><img src="/assets/readme-images/html-check-recepten.png"></h4>
+<h4 align="center"><img src="/readme-images/html-check-recepten.png"></h4>
 
 
 -   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) was used to test the css file on syntax errors.
 
 ### style.css
 
-<h4 align="center"><img src="/assets/readme-images/css-validation.png"></h4>
+<h4 align="center"><img src="/readme-images/css-validation.png"></h4>
 
 ## Tests of the user stories from User Experience (UX) section
 
@@ -132,6 +132,19 @@ Layouts were displaying as they should.
 No content was obstructed by broken layout or backgrounds.
 All the links in the navigation worked.
 Also the links to email and telephone numbers worked correctly.
+
+
+## Lighthouse
+
+On the first test in lighthouse the results where:
+
+<h4 align="center"><img src="/readme-images/performance.png"></h4>
+
+To improve these results, meta description and keywords where added.
+Almost all pictures where converted to to webp format to increase loadtimes.
+This resulted in the following scores:
+
+<h4 align="center"><img src="/readme-images/performance2.png"></h4>
 
 ---
 

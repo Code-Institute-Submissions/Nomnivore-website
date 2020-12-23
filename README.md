@@ -6,7 +6,7 @@ It showcases her skills and gives people free access to some of her favorite pas
 [View the live project here.](https://jorispaarde.github.io/Nomnivore-website/)
 
 
-<h2 align="center"><img src="/assets/readme-images/mockup-image.png"></h2>
+<h2 align="center"><img src="/readme-images/mockup-image.png"></h2>
 
 
 ## User Experience (UX)
@@ -144,10 +144,10 @@ The project was deployed to GitHub Pages using the following steps...
 
 1. Log in to GitHub
 2. Locate the [repository](https://github.com/JorisPaarde/Nomnivore-website).
-3. Go to settings menu: <h4 align="center"><img src="/assets/readme-images/settings.png"></h4>
+3. Go to settings menu: <h4 align="center"><img src="/readme-images/settings.png"></h4>
 4. scroll down to the bottom of the page.
-5. Select master and save. <h4 align="center"><img src="/assets/readme-images/select-save.png"></h4>
-6. View the publihed result. (This may take some time to show up correctly.) <h4 align="center"><img src="/assets/readme-images/view.png"></h4>
+5. Select master and save. <h4 align="center"><img src="/readme-images/select-save.png"></h4>
+6. View the publihed result. (This may take some time to show up correctly.) <h4 align="center"><img src="/readme-images/view.png"></h4>
 
 ### Making a Local Clone
 
@@ -157,7 +157,7 @@ The project was deployed to GitHub Pages using the following steps...
    If u haven't find out how to do that [here](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git).
 2. Log into GitHub.
 3. Locate the [repository](https://github.com/JorisPaarde/Nomnivore-website).
-4. Copy the link to the repository here: <h4 align="center"><img src="/assets/readme-images/clone.png"></h4>
+4. Copy the link to the repository here: <h4 align="center"><img src="/readme-images/clone.png"></h4>
 5. Open a terminal and enter the following command (inside the directory u want the repository to be placed):
 
 ```
